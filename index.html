@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MSB by Kiranaazh</title>
+    <link rel="icon" type="image/x-icon" href="logo skincare.jpg">
+    <link rel="stylesheet" type="text/css" href="css projek skincare.css">
+</head>
+<body>
+    <header>
+        <h1><img src="logo skincare.jpg" width="50px" style="float: left; margin-left: 3%;">Market skincare beauty</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="list.html">List</a></li>
+            <li><a href="brand html.html">Brand</a></li>
+            <li><a href="my contac.html">Kontak</a></li>
+            <li><a href="about.html">About</a></li>
+        </ul>
+    </nav>
+
+    <main class="main-1">
+        <section>
+            <article>
+                <center><figure><img class="Slideshow" src="step 1.webp" width="100%" height="800px">
+                <img class="Slideshow" src="mencuci muka step 2.jpeg" width="100%" height="800px">
+                <img class="Slideshow" src="step 3 toner.jpeg" width="100%" height="800px">
+                <img class="Slideshow" src="step 4 pelembab.webp" width="100%" height="800px">
+                <img class="Slideshow" src="step 5 sunscreen.jpeg" width="100%" height="800px">
+                <button style="float: left;" onclick="plusDivs(-1)">&#10094;</button>
+                <button style="float: right;" onclick="plusDivs(1)">&#10095;</button></center>
+                </figure> 
+
+                <script>
+                    var slideIndex = 1;
+                    showDivs(slideIndex);
+                    
+                    function plusDivs(n) {
+                      showDivs(slideIndex += n);
+                    }
+                    
+                    function showDivs(n) {
+                      var i;
+                      var x = document.getElementsByClassName("SlideShow");
+                      if (n > x.length) {slideIndex = 1}
+                      if (n < 1) {slideIndex = x.length}
+                      for (i = 0; i < x.length; i++) {
+                        x[i].style.display = "none";  
+                      }
+                      x[slideIndex-1].style.display = "block";  
+                    }
+                    </script>
+                <p>Membuat kulit bercahaya</p>
+                <p style="font-size: 30px; padding-top: 0;">Cantik juga butuh proses</p>
+                <p style="font-size: 20px;"> BEAUTY AND GLOW</p>
+                <p>prety</p>
+                <figure><a href="list.html"><img class="img-a" src="step 6 skincare.jpeg" width="300px" height="300px" style="float: left; margin-left: 20%;"></a><p style="position: absolute;padding-top: 300px;padding-left: 360px;">Shincare</p>
+                <a href="list.html"><img class="img-a" src="step 7 cantik.jpeg" width="300px" height="300px" style="float: left; margin-left: 10%;"></a><p style="position: absolute;padding-top: 300px;padding-left: 780px;">Beautiful</p></figure>
+               
+            </article>
+        </section>
+    </main> 
+
+    <footer>
+        <p>&copy; The owner is Kiranaazh</p>
+    </footer>
+            
+</body>
+</html>

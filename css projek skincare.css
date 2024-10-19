@@ -1,0 +1,168 @@
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: #944cae;
+    color: #EBE9E1;
+    text-align: center;
+    padding: 1em 0;
+    border: 1px solid #EBE9E1;
+}
+
+nav{
+    background-color: #EBE9E1;
+    color: #708644;
+    padding:1em;
+    
+    border: 1px solid #EBE9E1;
+    
+}
+
+nav ul{
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li{
+    display: inline;
+    margin-right: 10px;
+    color: #4096a5;
+}
+
+nav ul li a{
+    color: #ac3c85;
+    text-decoration: none;
+}
+
+
+article{
+    display: inline;
+    text-align: center;
+}
+
+.SlideShow{
+    display: none;
+}
+
+.img-a:hover{
+    box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.5);
+}
+
+.main-1{
+    height: 1450px;
+    background-color: #EBE9E1;
+    border: #EBE9E1;
+    border-bottom: solid  #EBE9E1;
+}
+
+section{
+    background-color: #EBE9E1;
+    color: #db3aa0;
+    border: 1px solid  #EBE9E1;
+}
+
+.main-2{
+    height: 400px;
+}
+
+.container{
+    margin: auto;
+    height: 400px;
+    width: 80%;
+}
+
+.card{
+    background-color: #eeeb39;
+    margin: 1%;
+    width: 16%;
+    border-radius: 15px;
+    padding: 1%;
+    float:left;
+}
+
+.card-heading{
+    font-size: 12px;
+    margin: 0 0 3% 0;
+    color: white;
+}
+
+.card-paragraf{
+    font-weight: bold;
+    margin: 0;
+    color: white;
+}
+
+.card-text{
+    font-size: 10px;
+    margin: 3% 0 0 0;
+    color: white;
+}
+
+.card-button{
+    background-color: #9f4759;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding: 5%;
+    border-radius: 10px;
+    display: inline-block;
+    padding: 1% 20% 1% 20%;
+    
+}
+
+.sec-about{
+    height: 500px;
+    margin-bottom: 35px;
+}
+
+.main-3{
+    height: 500px;
+    background-color: #EBE9E1;
+}
+
+.main-4{
+    height: 450px;
+    background-color: #EBE9E1;
+}
+
+.main-skintific{
+    height: 900px;
+    background-color: #EBE9E1;
+}
+
+.Artikel1{
+    background-color: #EBE9E1;
+    color: #cb1667;
+    height: 250px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.Artikel2{
+    background-color: #EBE9E1;
+    color: #6710d9;
+    height: 250px;
+}
+
+.Artikel-skintific{
+    background-color: rgb(53, 4, 20);
+    color: rgb(169, 116, 169);
+    height: 250px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.article-contactskintific{
+    background-color: #EBE9E1;
+}
+
+footer{
+    background-color: #482ddf;
+    font-size: small;
+    color: #dddfde;
+    border-color: #d5dcde;
+}
